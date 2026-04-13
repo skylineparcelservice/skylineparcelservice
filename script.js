@@ -23,7 +23,7 @@ function trackPackage() {
     const database = {
         "SK-1001": {
             customerName: "John Doe",
-            finalStatus: "PROCESSING", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
+            finalStatus: "DELIVERED", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
             steps: [
                 { type: "FROM", location: "Tomball, TX US", date: "Label Created<br>8/19/25 1:06 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "HOUSTON, TX", date: "8/19/25 3:01 PM", progress: "completed" },
