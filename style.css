@@ -1,0 +1,120 @@
+:root {
+    --skyline-yellow: #f8db13;
+    --skyline-red: #da1f2d;
+    --bg-gray: #f4f4f4;
+    --timeline-purple: #660099;
+}
+
+body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background: #fcfcfc; }
+
+/* Header & Slideshow */
+.header { background-color: var(--skyline-yellow); display: flex; justify-content: space-between; padding: 15px 20px; align-items: center; }
+.brand-name { font-weight: 900; font-size: 1.5rem; letter-spacing: -1px; text-decoration: none; color: #000; }
+.sub-brand { font-weight: 400; font-size: 0.8rem; display: block; margin-top: -5px; }
+
+.slideshow-container { position: relative; height: 300px; overflow: hidden; background: #000; }
+.mySlides img { height: 300px; width: 100%; object-fit: cover; opacity: 0.6; }
+.hero-text-overlay { position: absolute; top: 50%; left: 20px; transform: translateY(-50%); color: white; }
+
+/* Red Service Boxes */
+.company-info-section { padding: 40px 20px; text-align: center; }
+.info-grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
+.info-card.red-theme { background: var(--skyline-red); color: #fff; padding: 30px; border-radius: 4px; }
+.info-card.red-theme i { font-size: 2.5rem; color: var(--skyline-yellow); margin-bottom: 10px; }
+
+/* Tracking Input */
+.tracking-portal-area { border-top: 5px solid #333; }
+.link-rectangle { display: flex; background: var(--bg-gray); height: 60px; align-items: center; }
+.yellow-accent-bar { width: 10px; height: 100%; background: var(--skyline-yellow); }
+.tracker-input-container { padding: 20px; }
+.input-group { display: flex; border: 1px solid #ccc; }
+input { flex: 1; padding: 15px; border: none; outline: none; }
+button { background: #333; color: white; padding: 0 20px; font-weight: bold; border: none; cursor: pointer; }
+
+/* Timeline UI */
+.timeline-list { position: relative; padding-left: 50px; list-style: none; }
+.timeline-list::before { content: ''; position: absolute; left: 20px; top: 0; bottom: 0; width: 4px; background: #ddd; }
+.timeline-list::after { content: ''; position: absolute; left: 20px; top: 0; width: 4px; background: var(--timeline-purple); height: var(--progress-height, 0%); transition: 1.5s; }
+
+.timeline-item { position: relative; margin-bottom: 30px; }
+.dot { position: absolute; left: -38px; width: 12px; height: 12px; background: #fff; border: 3px solid #ccc; border-radius: 50%; z-index: 5; }
+
+/* The Bouncing Animation */
+@keyframes bounce {
+    0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(102, 0, 153, 0.4); }
+    50% { transform: scale(1.3); box-shadow: 0 0 0 10px rgba(102, 0, 153, 0); }
+}
+.timeline-item.current .dot { background: var(--timeline-purple); border-color: #fff; animation: bounce 2s infinite; width: 20px; height: 20px; left: -44px; }
+
+.status-delay { color: var(--skyline-red); font-weight: bold; font-size: 0.85rem; margin-top: 5px; }
+
+/* Partners & Footer */
+.footer { background: #fff; border-top: 5px solid var(--skyline-yellow); padding: 20px; text-align: center; }
+.partner-logo { height: 25px; margin: 10px; filter: grayscale(100%); }
+
+@media (min-width: 768px) { .info-grid { grid-template-columns: repeat(4, 1fr); } }
+.fade { animation: fadeEffect 1.5s; }
+@keyframes fadeEffect { from {opacity: .4} to {opacity: 1} }
+/* --- NEW LAYOUT STYLES --- */
+.status-header {
+    font-weight: 900;
+    font-size: 0.95rem;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.status-loc {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.status-time {
+    font-size: 0.85rem;
+    color: #777;
+    line-height: 1.4;
+}
+
+.status-estimated {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dashed #ccc; /* Creates that clean separator line */
+}
+
+/* Ensure the purple bouncing circle is perfectly centered */
+.timeline-item.current .dot {
+    background: var(--timeline-purple);
+    border: 3px solid #fff;
+    animation: bounce 2s infinite;
+    width: 24px;
+    height: 24px;
+    left: -44px; 
+    z-index: 10;
+}
+/* Styling for the Customer Name box */
+.customer-welcome {
+    background: #fdfdfd;
+    border-left: 5px solid var(--timeline-purple);
+    padding: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 0 4px 4px 0;
+}
+
+.customer-welcome i {
+    color: var(--timeline-purple);
+    font-size: 1.5rem;
+}
+
+.customer-welcome strong {
+    color: #222;
+}
+
