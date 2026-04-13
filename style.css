@@ -117,4 +117,19 @@ button { background: #333; color: white; padding: 0 20px; font-weight: bold; bor
 .customer-welcome strong {
     color: #222;
 }
+.final-status-badge {
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.final-status-badge.delivered { background: #e6ffed; color: #1e7e34; border: 1px solid #b7eb8f; }
+.final-status-badge.processing { background: #e6f7ff; color: #0050b3; border: 1px solid #91d5ff; }
+.final-status-badge.delayed { background: #fff7e6; color: #d46b08; border: 1px solid #ffd591; }
+.final-status-badge.cancelled { background: #fff1f0; color: #cf1322; border: 1px solid #ffa39e; }
+
 
