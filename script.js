@@ -22,39 +22,14 @@ function trackPackage() {
 
     const database = {
         "SK-1001": {
-            customerName: "John Doe", // <--- ADDED CUSTOMER NAME HERE
+            customerName: "John Doe",
+            finalStatus: "DELIVERED", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
             steps: [
-                { 
-                    type: "FROM", 
-                    location: "Tomball, TX US", 
-                    date: "Label Created<br>8/19/25 1:06 PM", 
-                    progress: "completed" 
-                },
-                { 
-                    type: "WE HAVE YOUR PACKAGE", 
-                    location: "HOUSTON, TX", 
-                    date: "8/19/25 3:01 PM", 
-                    progress: "completed" 
-                },
-                { 
-                    type: "ON THE WAY", 
-                    location: "At destination sort facility", 
-                    date: "CHARLOTTE, NC<br>8/20/25 6:53 PM", 
-                    progress: "completed" 
-                },
-                { 
-                    type: "OUT FOR DELIVERY", 
-                    location: "Shipment is out for local delivery", 
-                    date: "8/21/25 9:00 AM", 
-                    progress: "completed" 
-                }, 
-                { 
-                    type: "TO", 
-                    location: "CHERRYVILLE, NC US", 
-                    date: "Scheduled Delivery Date<br>8/21/25 before 8:00 PM", 
-                    extra: "Estimated between<br>10:20 AM - 2:20 PM",
-                    progress: "current" 
-                }
+                { type: "FROM", location: "Tomball, TX US", date: "Label Created<br>8/19/25 1:06 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "HOUSTON, TX", date: "8/19/25 3:01 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "CHARLOTTE, NC<br>8/20/25 6:53 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "8/21/25 9:00 AM", progress: "completed" }, 
+                { type: "TO", location: "CHERRYVILLE, NC US", date: "Scheduled Delivery Date<br>8/21/25 before 8:00 PM", extra: "Estimated between<br>10:20 AM - 2:20 PM", progress: "current" }
             ]
         }
     };
@@ -66,7 +41,6 @@ function trackPackage() {
         msg.innerHTML = "Shipment Found";
         msg.style.color = "green";
         
-        // ADDED: Customer Greeting at the top
         let html = `
             <div class="customer-welcome">
                 <i class="fas fa-user-circle"></i> 
@@ -75,10 +49,8 @@ function trackPackage() {
             <ul class="timeline-list">`;
             
         let completedSteps = 0;
-
         data.steps.forEach(step => {
             if (step.progress !== "incomplete") { completedSteps++; }
-            
             html += `
                 <li class="timeline-item ${step.progress}">
                     <div class="dot"></div>
@@ -91,7 +63,13 @@ function trackPackage() {
                 </li>`;
         });
 
-        timeline.innerHTML = html + "</ul>";
+        // This adds the Status Badge right at the blue line you marked
+        html += `</ul>
+            <div class="final-status-badge ${data.finalStatus.toLowerCase()}">
+                STATUS: ${data.finalStatus}
+            </div>`;
+
+        timeline.innerHTML = html;
         timeline.style.display = "block";
         
         const progressHeight = ((completedSteps - 1) / (data.steps.length - 1)) * 100;
