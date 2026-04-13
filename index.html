@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Parcel Service | Global Logistics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo-link">
+            <div class="brand-name">SKYLINE <span class="sub-brand">PARCEL SERVICE</span></div>
+        </a>
+        <div class="header-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <section class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1200" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?q=80&w=1200" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?q=80&w=1200" style="width:100%">
+        </div>
+        
+        <div class="hero-text-overlay">
+            <h1>Global Logistics Solutions</h1>
+            <p>Moving the world, one parcel at a time.</p>
+        </div>
+    </section>
+
+    <main class="tracking-portal-area">
+        <div class="link-rectangle current-page">
+            <div class="yellow-accent-bar"></div>
+            <h2>TRACK YOUR SHIPMENT</h2>
+        </div>
+        
+        <div class="tracker-input-container">
+            <div class="input-group">
+                <input type="text" id="trackingID" placeholder="ENTER TRACKING ID" autocomplete="off">
+                <button onclick="trackPackage()">TRACK NOW</button>
+            </div>
+            <div id="statusMessage" class="status-message"></div>
+        </div>
+
+        <div id="timelineContainer" style="display: none; padding: 20px; background: #fff;"></div>
+    </main>
+
+    <section class="company-info-section">
+        <h2 class="section-title">Why Choose Skyline?</h2>
+        <div class="info-grid">
+            <div class="info-card red-theme">
+                <i class="fas fa-plane-departure"></i>
+                <h3>Air Freight</h3>
+                <p>Express global delivery for your most time-sensitive shipments.</p>
+            </div>
+            <div class="info-card red-theme">
+                <i class="fas fa-warehouse"></i>
+                <h3>Warehousing</h3>
+                <p>Secure, climate-controlled storage facilities worldwide.</p>
+            </div>
+            <div class="info-card red-theme">
+                <i class="fas fa-ship"></i>
+                <h3>Ocean Cargo</h3>
+                <p>Cost-effective shipping for bulk goods across every continent.</p>
+            </div>
+            <div class="info-card red-theme">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure Handling</h3>
+                <p>Specialized care for fragile and high-value equipment.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>GET IN TOUCH</h3>
+            <p>Email: <strong>support@skylineparcels.com</strong></p>
+        </div>
+        <div class="partners-logo-area">
+            <h4>Global Partners</h4>
+            <div class="partner-logos-container">
+                <img src="https://logodownload.org/wp-content/uploads/2015/05/tnt-express-logo-0.png" class="partner-logo">
+                <img src="https://logodownload.org/wp-content/uploads/2014/11/fedex-logo-2.png" class="partner-logo">
+                <img src="https://logodownload.org/wp-content/uploads/2015/02/dhl-logo.png" class="partner-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
