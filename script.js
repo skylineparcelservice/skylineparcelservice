@@ -46,14 +46,14 @@ function trackPackage() {
                     type: "OUT FOR DELIVERY", 
                     location: "Shipment is out for local delivery", 
                     date: "8/21/25 9:00 AM", 
-                    progress: "current" 
+                    progress: "completed" 
                 }, 
                 { 
                     type: "TO", 
                     location: "CHERRYVILLE, NC US", 
                     date: "Scheduled Delivery Date<br>8/21/25 before 8:00 PM", 
                     extra: "Estimated between<br>10:20 AM - 2:20 PM",
-                    progress: "incomplete" 
+                    progress: "current" 
                 }
             ]
         }
