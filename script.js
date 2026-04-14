@@ -22,14 +22,14 @@ function trackPackage() {
 
     const database = {
         "SK-1001": {
-            customerName: "John Doe",
-            finalStatus: "DELIVERED", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
+            customerName: "Hatstat Rebecca",
+            finalStatus: "DELAYED", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
             steps: [
-                { type: "FROM", location: "Tomball, TX US", date: "Label Created<br>8/19/25 1:06 PM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "HOUSTON, TX", date: "8/19/25 3:01 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "CHARLOTTE, NC<br>8/20/25 6:53 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "8/21/25 9:00 AM", progress: "completed" }, 
-                { type: "TO", location: "CHERRYVILLE, NC US", date: "Scheduled Delivery Date<br>8/21/25 before 8:00 PM", extra: "Estimated between<br>10:20 AM - 2:20 PM", progress: "current" }
+                { type: "FROM", location: "DHL Group, NW DE", date: "Label Created<br>3/17/26 12:25 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "NORDRHEIN-WESTFALEN, DE", date: "3/18/26 11:07 AM", progress: "current" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "NORDRHEIN-WESTFALEN, NC<br>4/15/26 12:00 PM", progress: "incomplete" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 9:30 AM", progress: "incompleted" }, 
+                { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Scheduled Delivery Date<br>4/25/26 before 11:00 AM", extra: "Estimated between<br>10:20 AM - 11:00 AM", progress: "incomplete" }
             ]
         }
     };
