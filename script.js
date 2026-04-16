@@ -20,16 +20,44 @@ function trackPackage() {
     const timeline = document.getElementById('timelineContainer');
     const msg = document.getElementById('statusMessage');
 
+    // ADD MORE CUSTOMERS BY COPYING A FULL BLOCK BELOW
     const database = {
         "SK-1001": {
-            customerName: "Hatstat Rebecca",
-            finalStatus: "DELAYED", // Options: DELIVERED, PROCESSING, DELAYED, CANCELLED
+            customerName: "John Doe",
+            finalStatus: "DELAYED", 
+            statusNote: "Due to heavy weather conditions at the transit hub, your package has been slightly delayed. We are working to get it to you as soon as possible.",
             steps: [
-                { type: "FROM", location: "DHL Group, NW DE", date: "Label Created<br>3/17/26 12:25 PM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "NORDRHEIN-WESTFALEN, DE", date: "3/18/26 11:07 AM", progress: "current" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "NORDRHEIN-WESTFALEN, NC<br>4/15/26 12:00 PM", progress: "incomplete" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 9:30 AM", progress: "incompleted" }, 
-                { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Scheduled Delivery Date<br>4/25/26 before 11:00 AM", extra: "Estimated between<br>10:20 AM - 11:00 AM", progress: "incomplete" }
+                { type: "FROM", location: "Tomball, TX US", date: "Label Created<br>8/19/25 1:06 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "HOUSTON, TX", date: "8/19/25 3:01 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "CHARLOTTE, NC<br>8/20/25 6:53 PM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "Pending", progress: "incomplete" }, 
+                { type: "TO", location: "CHERRYVILLE, NC US", date: "Scheduled Delivery Date<br>Pending Update", extra: "", progress: "incomplete" }
+            ]
+        }, // <-- ALWAYS put a comma between customers
+
+        "SK-2002": {
+            customerName: "Chen Xiaoxin",
+            finalStatus: "PROCESSING",
+            statusNote: "Your Package is on Transit. Thank you for choosing Skyline!",
+            steps: [
+                { type: "FROM", location: "GLOVES HUT", date: "4/16/26 06:00 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Quanzhou Distribution Center, FJ", date: "4/16/26 11:07 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "4/16/26 12:00 PM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "4/24/26 9:30 AM", progress: "incomplete" }, 
+                { type: "TO", location: "Juran Home Express Station, No. 1, Chenghui International Road, Daxiamei, Nan'an City, Quanzhou, Fujian Province", date: "Schedule delivery date<br>4/25/26 11:00 AM", extra: "", progress: "incomplete" }
+            ]
+        },
+
+        "SK-3003": {
+            customerName: "Robert Wilson",
+            finalStatus: "PROCESSING",
+            statusNote: "Your shipment is currently undergoing mandatory customs clearance. This usually takes 24-48 hours.",
+            steps: [
+                { type: "FROM", location: "Berlin, DE", date: "10/10/25 10:00 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Berlin Hub", date: "10/11/25 1:00 PM", progress: "current" },
+                { type: "ON THE WAY", location: "Pending", date: "---", progress: "incomplete" },
+                { type: "OUT FOR DELIVERY", location: "Pending", date: "---", progress: "incomplete" }, 
+                { type: "TO", location: "Toronto, CA", date: "Est. 10/16/25", extra: "", progress: "incomplete" }
             ]
         }
     };
@@ -63,11 +91,11 @@ function trackPackage() {
                 </li>`;
         });
 
-        // This adds the Status Badge right at the blue line you marked
         html += `</ul>
             <div class="final-status-badge ${data.finalStatus.toLowerCase()}">
                 STATUS: ${data.finalStatus}
-            </div>`;
+            </div>
+            ${data.statusNote ? `<div class="status-note-box"><strong>Note:</strong> ${data.statusNote}</div>` : ''}`;
 
         timeline.innerHTML = html;
         timeline.style.display = "block";
