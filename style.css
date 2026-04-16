@@ -131,5 +131,27 @@ button { background: #333; color: white; padding: 0 20px; font-weight: bold; bor
 .final-status-badge.processing { background: #e6f7ff; color: #0050b3; border: 1px solid #91d5ff; }
 .final-status-badge.delayed { background: #fff7e6; color: #d46b08; border: 1px solid #ffd591; }
 .final-status-badge.cancelled { background: #fff1f0; color: #cf1322; border: 1px solid #ffa39e; }
+/* Styling for the custom note write-up */
+.status-note-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: #fdfdfd; /* Light background to make it stand out */
+    border-top: 2px solid #ddd;
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: left;
+}
+
+.status-note-box strong {
+    color: #222;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 5px;
+}
+
 
 
