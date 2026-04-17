@@ -43,7 +43,7 @@ function trackPackage() {
                 { type: "FROM", location: "GLOVES HUT", date: "4/16/26 06:00 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Quanzhou Distribution Center, FJ", date: "4/16/26 11:07 AM", progress: "completed" },
                 { type: "ON THE WAY", location: "At destination sort facility", date: "4/16/26 12:00 PM", progress: "complete" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "4/18/26 4:00 AM", progress: "current" }, 
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "4/18/26 12:30 AM", progress: "current" }, 
                 { type: "TO", location: "Juran Home Express Station, No. 1, Chenghui International Road, Daxiamei, Nan'an City, Quanzhou, Fujian Province", date: "Schedule delivery date<br>4/25/26 11:00 AM", extra: "", progress: "incomplete" }
             ]
         },
