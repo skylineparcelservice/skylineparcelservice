@@ -23,15 +23,15 @@ function trackPackage() {
     // ADD MORE CUSTOMERS BY COPYING A FULL BLOCK BELOW
     const database = {
         "SK-1001": {
-            customerName: "John Doe",
+            customerName: "Sam Abdullah",
             finalStatus: "DELAYED", 
             statusNote: "Due to heavy weather conditions at the transit hub, your package has been slightly delayed. We are working to get it to you as soon as possible.",
             steps: [
-                { type: "FROM", location: "Tomball, TX US", date: "Label Created<br>8/19/25 1:06 PM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "HOUSTON, TX", date: "8/19/25 3:01 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "CHARLOTTE, NC<br>8/20/25 6:53 PM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "Pending", progress: "incomplete" }, 
-                { type: "TO", location: "CHERRYVILLE, NC US", date: "Scheduled Delivery Date<br>Pending Update", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Elite Fund Solutions", date: "Label Created<br>4/21/26 8:25 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Kansas City, MO", date: "4/22/26 4:40 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "St. Louis, MO", date: "4/23/26 9:25 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "COLUMBIA, MO", date: "4/23/26 1:10 PM", progress: "completed" }, 
+                { type: "TO", location: "COLUMBIA, MO", date: "Scheduled Delivery<br>4/24/26 10:30 AM", extra: "", progress: "current" }
             ]
         }, // <-- ALWAYS put a comma between customers
 
