@@ -49,15 +49,15 @@ function trackPackage() {
         },
 
         "SK-3003": {
-            customerName: "Robert Wilson",
+            customerName: "Alhassane Diallo",
             finalStatus: "PROCESSING",
             statusNote: "Your shipment is currently undergoing mandatory customs clearance. This usually takes 24-48 hours.",
             steps: [
-                { type: "FROM", location: "Berlin, DE", date: "10/10/25 10:00 AM", progress: "completed" },
+                { type: "FROM", location: "GLOVES HUT", date: "4/20/26 04:00 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Berlin Hub", date: "10/11/25 1:00 PM", progress: "current" },
-                { type: "ON THE WAY", location: "Pending", date: "---", progress: "incomplete" },
-                { type: "OUT FOR DELIVERY", location: "Pending", date: "---", progress: "incomplete" }, 
-                { type: "TO", location: "Toronto, CA", date: "Est. 10/16/25", extra: "", progress: "incomplete" }
+                { type: "ON THE WAY", location: "At destination sort facility", date: "4/20/26 05:00 PM", progress: "incomplete" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "4/20/26 05:00 PM", progress: "incomplete" }, 
+                { type: "TO", location: "Conakry Guinea", date: "Est. 4/23/26 11:00 AM", extra: "", progress: "incomplete" }
             ]
         }
     };
