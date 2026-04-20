@@ -25,7 +25,7 @@ function trackPackage() {
         "SK-1001": {
             customerName: "Sam Abdullah",
             finalStatus: "DELAYED", 
-            statusNote: "Due to heavy weather conditions at the transit hub, your package has been slightly delayed. We are working to get it to you as soon as possible.",
+            statusNote: "ON HOLD FOR INSURANCE  CHARGES.",
             steps: [
                 { type: "FROM", location: "Elite Fund Solutions", date: "Label Created<br>4/21/26 8:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Kansas City, MO", date: "4/22/26 4:40 PM", progress: "completed" },
