@@ -51,12 +51,12 @@ function trackPackage() {
         "SK-3003": {
             customerName: "Alhassane Diallo",
             finalStatus: "PROCESSING",
-            statusNote: "Your shipment is currently in transit.",
+            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $300 Please contact supplier.",
             steps: [
                 { type: "FROM", location: "GLOVES HUT", date: "4/20/26 04:00 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "CONAKRY TRI", date: "4/20/26 4:45 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "4/20/26 05:00 PM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "4/20/26 05:00 PM", progress: "incomplete" }, 
+                { type: "ON THE WAY", location: "At destination sort facility", date: "4/20/26 05:00 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "4/20/26 05:00 PM", progress: "current" }, 
                 { type: "TO", location: "Conakry Guinea", date: "Est. 4/23/26 11:00 AM", extra: "", progress: "incomplete" }
             ]
         }
