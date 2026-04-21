@@ -50,7 +50,7 @@ function trackPackage() {
 
         "SK-3003": {
             customerName: "Alhassane Diallo",
-            finalStatus: "ON HOLD",
+            finalStatus: "DELAYED",
             statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $300 Please contact supplier.",
             steps: [
                 { type: "FROM", location: "GLOVES HUT", date: "4/20/26 04:00 PM", progress: "completed" },
