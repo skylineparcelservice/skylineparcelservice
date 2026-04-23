@@ -59,7 +59,18 @@ function trackPackage() {
                 { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "4/20/26 05:00 PM", progress: "current" }, 
                 { type: "TO", location: "Conakry Guinea", date: "Est. 4/23/26 11:00 AM", extra: "", progress: "incomplete" }
             ]
-        }
+        },
+
+        "SK-4004": {
+            customerName: "Hatstat Rebecca ",
+            finalStatus: "DELAYED",
+            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $300 Please contact supplier.",
+            steps: [
+                { type: "FROM", location: "DHL Group, NW DE", date: "3/17/26 12:25 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "NORDRHEIN-WESTFALEN, DE", date: "3/18/26 11:07 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "4/15/26 12:00 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 09:30 AM", progress: "current" }, 
+                { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Est. 4/25/26 11:00 AM", extra: "", progress: "incomplete" }
     };
 
     timeline.innerHTML = "";
