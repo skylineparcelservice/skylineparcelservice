@@ -20,7 +20,6 @@ function trackPackage() {
     const timeline = document.getElementById('timelineContainer');
     const msg = document.getElementById('statusMessage');
 
-    // To add more customers, copy a full block from "SK-XXXX" down to the closing },
     const database = {
         "SK-1001": {
             customerName: "Sam Abdullah",
@@ -72,10 +71,22 @@ function trackPackage() {
                 { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 09:30 AM", progress: "current" }, 
                 { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Est. 4/25/26 11:00 AM", extra: "", progress: "incomplete" }
             ]
-        } 
-    }; // Database closed correctly
+        },
 
-    // Reset UI before checking ID
+        "SK-5005": {
+            customerName: "Richard Edge",
+            finalStatus: "DELAYED",
+            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $2150 Please contact supplier.",
+            steps: [
+                { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "Label Created<br>4/19/2026, 9:25 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "New York (Headquarters): 245 5th Avenue, 24th Floor, New York, NY 10016", date: "4/22/2026, 4:40 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "4/23/2026, 9:25 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "#18-8737 212 STREETN LANGLEY BC Canada", date: "4/21/2026, 1:10 PM", progress: "current" }, 
+                { type: "TO", location: "18-8737 212 STREETN LANGLEY BC Canada", date: "Scheduled delivery<br>4/29/2026, 10:30 AM", extra: "", progress: "incomplete" }
+            ]
+        }
+    };
+
     timeline.innerHTML = "";
     
     if (database[id]) {
@@ -114,7 +125,6 @@ function trackPackage() {
         timeline.innerHTML = html;
         timeline.style.display = "block";
         
-        // Calculate the height of the blue progress line
         const progressHeight = ((completedSteps - 1) / (data.steps.length - 1)) * 100;
         timeline.style.setProperty('--progress-height', progressHeight + '%');
         
