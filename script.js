@@ -64,7 +64,7 @@ function trackPackage() {
         "SK-4004": {
             customerName: "Hatstat Rebecca ",
             finalStatus: "DELAYED",
-            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $300 Please contact supplier.",
+            statusNote: "ON HOLD.",
             steps: [
                 { type: "FROM", location: "DHL Group, NW DE", date: "3/17/26 12:25 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "NORDRHEIN-WESTFALEN, DE", date: "3/18/26 11:07 AM", progress: "completed" },
