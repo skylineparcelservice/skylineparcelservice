@@ -20,12 +20,12 @@ function trackPackage() {
     const timeline = document.getElementById('timelineContainer');
     const msg = document.getElementById('statusMessage');
 
-    // ADD MORE CUSTOMERS BY COPYING A FULL BLOCK BELOW
+    // To add more customers, copy a full block from "SK-XXXX" down to the closing },
     const database = {
         "SK-1001": {
             customerName: "Sam Abdullah",
             finalStatus: "DELAYED", 
-            statusNote: "ON HOLD FOR INSURANCE  CHARGES.",
+            statusNote: "ON HOLD FOR INSURANCE CHARGES.",
             steps: [
                 { type: "FROM", location: "Elite Fund Solutions", date: "Label Created<br>4/21/26 8:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Kansas City, MO", date: "4/22/26 4:40 PM", progress: "completed" },
@@ -33,7 +33,7 @@ function trackPackage() {
                 { type: "OUT FOR DELIVERY", location: "COLUMBIA, MO", date: "4/23/26 1:10 PM", progress: "completed" }, 
                 { type: "TO", location: "COLUMBIA, MO", date: "Scheduled Delivery<br>4/24/26 10:30 AM", extra: "", progress: "current" }
             ]
-        }, // <-- ALWAYS put a comma between customers
+        },
 
         "SK-2002": {
             customerName: "Chen Xiaoxin",
@@ -71,8 +71,11 @@ function trackPackage() {
                 { type: "ON THE WAY", location: "At destination sort facility", date: "4/15/26 12:00 PM", progress: "completed" },
                 { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 09:30 AM", progress: "current" }, 
                 { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Est. 4/25/26 11:00 AM", extra: "", progress: "incomplete" }
-    };
+            ]
+        } 
+    }; // Database closed correctly
 
+    // Reset UI before checking ID
     timeline.innerHTML = "";
     
     if (database[id]) {
@@ -111,11 +114,13 @@ function trackPackage() {
         timeline.innerHTML = html;
         timeline.style.display = "block";
         
+        // Calculate the height of the blue progress line
         const progressHeight = ((completedSteps - 1) / (data.steps.length - 1)) * 100;
         timeline.style.setProperty('--progress-height', progressHeight + '%');
         
     } else {
         msg.innerHTML = "Invalid Tracking ID";
         msg.style.color = "red";
+        timeline.style.display = "none";
     }
 }
