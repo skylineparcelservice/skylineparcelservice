@@ -75,14 +75,14 @@ function trackPackage() {
 
         "SK-5005": {
             customerName: "Richard Edge",
-            finalStatus: "DELAYED",
-            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $2150 Please contact supplier.",
+            finalStatus: "PROCESSING",
+            statusNote: "Package on Transit",
             steps: [
                 { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "Label Created<br>4/19/2026, 9:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "New York (Headquarters): 245 5th Avenue, 24th Floor, New York, NY 10016", date: "4/22/2026, 4:40 PM", progress: "completed" },
                 { type: "ON THE WAY", location: "At destination sort facility", date: "4/23/2026, 9:25 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "#18-8737 212 STREETN LANGLEY BC Canada", date: "4/28/2026, 1:10 PM", progress: "current" }, 
-                { type: "TO", location: "18-8737 212 STREETN LANGLEY BC Canada", date: "Scheduled delivery<br>4/29/2026, 10:30 AM", extra: "", progress: "incomplete" }
+                { type: "OUT FOR DELIVERY", location: "#18-8737 212 STREETN LANGLEY BC Canada", date: "4/28/2026, 1:10 PM", progress: "completed" }, 
+                { type: "TO", location: "18-8737 212 STREETN LANGLEY BC Canada", date: "Scheduled delivery<br>5/03/2026, 4:52 PM", extra: "", progress: "current" }
             ]
         }
     };
