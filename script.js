@@ -22,13 +22,13 @@ function trackPackage() {
 
     const database = {
         "SK-1001": {
-            customerName: "Sam Abdullah",
-            finalStatus: "DELAYED", 
+            customerName: "Walz Christof Benjamin",
+            finalStatus: "PENDING", 
             statusNote: "ON HOLD FOR INSURANCE CHARGES.",
             steps: [
-                { type: "FROM", location: "Elite Fund Solutions", date: "Label Created<br>4/21/26 8:25 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "Kansas City, MO", date: "4/22/26 4:40 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "St. Louis, MO", date: "4/23/26 9:25 AM", progress: "completed" },
+                { type: "FROM", location: "Swift Delivery", date: "Label Created<br>6/5/26 10:05 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Texas City, Tx", date: "6/5/26 10:05 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "Kinzigweg 1671139", date: "4/23/26 9:25 AM", progress: "completed" },
                 { type: "OUT FOR DELIVERY", location: "COLUMBIA, MO", date: "4/23/26 1:10 PM", progress: "completed" }, 
                 { type: "TO", location: "COLUMBIA, MO", date: "Scheduled Delivery<br>4/24/26 10:30 AM", extra: "", progress: "current" }
             ]
