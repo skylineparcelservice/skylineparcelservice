@@ -21,16 +21,16 @@ function trackPackage() {
     const msg = document.getElementById('statusMessage');
 
     const database = {
-        "SK-1001": {
+        "SK-1171": {
             customerName: "Walz Christof Benjamin",
             finalStatus: "PENDING", 
             statusNote: "ON HOLD FOR INSURANCE CHARGES.",
             steps: [
-                { type: "FROM", location: "Swift Delivery", date: "Label Created<br>6/5/26 10:05 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "Texas City, Tx", date: "6/5/26 10:05 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "Kinzigweg 1671139", date: "4/23/26 9:25 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "COLUMBIA, MO", date: "4/23/26 1:10 PM", progress: "completed" }, 
-                { type: "TO", location: "COLUMBIA, MO", date: "Scheduled Delivery<br>4/24/26 10:30 AM", extra: "", progress: "current" }
+                { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "Label Created<br>6/5/26 10:25 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Texas (Headquarters): 509  port Wall Street Houston Texas", date: "6/5/26 11:40 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "St. Louis, MO", date: "7/5/26 09:25 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Kinzigweg 1671139, Germany", date: "8/6/26 08:53 AM", progress: "completed" }, 
+                { type: "TO", location: "Kinzigweg 1671139, Germany", date: "Scheduled Delivery<br>8/6/26 08:53 AM", extra: "", progress: "current" }
             ]
         },
 
