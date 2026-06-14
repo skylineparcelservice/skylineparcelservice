@@ -35,9 +35,9 @@ function trackPackage() {
         },
 
         "SK-2137": {
-            customerName: "SpaceX",
+            customerName: "Michael",
             finalStatus: "PROCESSING",
-            statusNote: "ON HOLD FOR CUSTOM CLEARANCE CHARGES. $300 Please contact supplier",
+            statusNote: "ON TRANSIT",
             steps: [
                 { type: "FROM", location: "SpaceX", date: "6/13/26 09:00 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "", date: "6/13/26 11:00 AM", progress: "completed" },
