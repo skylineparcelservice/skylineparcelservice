@@ -79,10 +79,10 @@ function trackPackage() {
             statusNote: "Keys and Lease Agreement Paper",
             steps: [
                 { type: "FROM", location: "Paul Dillman", date: "Label Created<br>01/07/2026, 10:25 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "New York (Headquarters): 245 5th Avenue, 24th Floor, New York, NY 10016", date: "4/22/2026, 4:40 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "4/23/2026, 9:25 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "#18-8737 212 STREETN LANGLEY BC Canada", date: "4/28/2026, 1:10 PM", progress: "completed" }, 
-                { type: "TO", location: "18-8737 212 STREETN LANGLEY BC Canada", date: "Scheduled delivery<br>5/03/2026, 4:52 PM", extra: "", progress: "completed" }
+                { type: "WE HAVE YOUR PACKAGE", location: "1401 Glenoaks Blvd, San Fernando, CA 91340", date: "01/07/2026, 11:40 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "02/07/2026, 16:25 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "20710 filbert rd Bothell wa.98012", date: "03/07/2026, 08:53 AM", progress: "current" }, 
+                { type: "TO", location: "20710 filbert rd Bothell wa.98012", date: "Scheduled delivery<br>03/07/2026, 13:10 PM", extra: "", progress: "incompleted" }
             ]
         }
     };
