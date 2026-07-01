@@ -74,9 +74,9 @@ function trackPackage() {
         },
 
         "SK-5005": {
-            customerName: "Richard Edge",
-            finalStatus: "DELIVERED",
-            statusNote: "Package Delivered",
+            customerName: "Jaime Tinoco",
+            finalStatus: "PROCESSING",
+            statusNote: "Keys and Lease Agreement Paper",
             steps: [
                 { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "Label Created<br>4/19/2026, 9:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "New York (Headquarters): 245 5th Avenue, 24th Floor, New York, NY 10016", date: "4/22/2026, 4:40 PM", progress: "completed" },
