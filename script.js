@@ -22,15 +22,15 @@ function trackPackage() {
 
     const database = {
         "SK-4471": {
-            customerName: "Walz Christof Benjamin",
-            finalStatus: "PENDING", 
-            statusNote: "ON HOLD FOR INSURANCE CHARGES.",
+            customerName: "Margaret Kuever",
+            finalStatus: "PROCESSING", 
+            statusNote: "ON TRANSIT.",
             steps: [
-                { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "Label Created<br>6/5/26 10:25 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "Texas (Headquarters): 509  port Wall Street Houston Texas", date: "6/5/26 11:40 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "St. Louis, MO", date: "7/5/26 09:25 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Kinzigweg 1671139, Germany", date: "8/6/26 08:53 AM", progress: "completed" }, 
-                { type: "TO", location: "Kinzigweg 1671139, Germany", date: "Scheduled Delivery<br>8/6/26 08:53 AM", extra: "", progress: "current" }
+                { type: "FROM", location: "US Customs & Border Protection", date: "Label Created<br>4/7/26 02:00 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "7 S Nevada St, Seattle WA 98134 United States", date: "4/7/26 02:15 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "5/7/26 09:25 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "2158 Eveleigh Rd, Leitchfield, KY 42754", date: "8/7/26 08:53 AM", progress: "current" }, 
+                { type: "TO", location: "2158 Eveleigh Rd, Leitchfield, KY 42754", date: "Scheduled Delivery<br>11/8/26 11:53 AM", extra: "", progress: "incomplete" }
             ]
         },
 
