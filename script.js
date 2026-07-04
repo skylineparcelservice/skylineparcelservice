@@ -21,7 +21,7 @@ function trackPackage() {
     const msg = document.getElementById('statusMessage');
 
     const database = {
-        "SK-1171": {
+        "SK-4471": {
             customerName: "Walz Christof Benjamin",
             finalStatus: "PENDING", 
             statusNote: "ON HOLD FOR INSURANCE CHARGES.",
