@@ -75,7 +75,7 @@ function trackPackage() {
 
         "SK-57703": {
             customerName: "Jaime Tinoco",
-            finalStatus: "ON HOLD",
+            finalStatus: "PROCESSING",
             statusNote: "Out for Delivery.",
             steps: [
                 { type: "FROM", location: "Paul Dillman", date: "Label Created<br>01/07/2026, 10:25 AM", progress: "completed" },
