@@ -76,13 +76,13 @@ function trackPackage() {
         "SK-57703": {
             customerName: "Jaime Tinoco",
             finalStatus: "ON HOLD",
-            statusNote: "The landlord attorney wants you to solidify the lease agreement by paying 3 months upfront to get the keys.",
+            statusNote: "Out for Delivery.",
             steps: [
                 { type: "FROM", location: "Paul Dillman", date: "Label Created<br>01/07/2026, 10:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "1401 Glenoaks Blvd, San Fernando, CA 91340", date: "01/07/2026, 11:40 AM", progress: "completed" },
                 { type: "ON THE WAY", location: "At destination sort facility", date: "02/07/2026, 16:25 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "20710 filbert rd Bothell wa.98012", date: "03/07/2026, 08:53 AM", progress: "current" }, 
-                { type: "TO", location: "20710 filbert rd Bothell wa.98012", date: "Scheduled delivery<br>03/07/2026, 13:10 PM", extra: "", progress: "incompleted" }
+                { type: "OUT FOR DELIVERY", location: "20710 filbert rd Bothell wa.98012", date: "03/07/2026, 08:53 AM", progress: "completed" }, 
+                { type: "TO", location: "20710 filbert rd Bothell wa.98012", date: "Scheduled delivery<br>03/07/2026, 13:10 PM", extra: "", progress: "current" }
             ]
         }
     };
