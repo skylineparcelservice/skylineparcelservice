@@ -75,8 +75,8 @@ function trackPackage() {
 
         "SK-57703": {
             customerName: "Jaime Tinoco",
-            finalStatus: "PROCESSING",
-            statusNote: "Out for Delivery.",
+            finalStatus: "ON HOLD",
+            statusNote: "Client needs to compulsory solidify the lease agreement by paying the 3 months rent upfront, the first month rent and the rent for the month of August has been received by Teresa, now he only he needs to pay the last month rent and the September rent to have the keys released to you today.",
             steps: [
                 { type: "FROM", location: "Paul Dillman", date: "Label Created<br>01/07/2026, 10:25 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "1401 Glenoaks Blvd, San Fernando, CA 91340", date: "01/07/2026, 11:40 AM", progress: "completed" },
