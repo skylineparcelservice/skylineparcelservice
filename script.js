@@ -34,16 +34,16 @@ function trackPackage() {
             ]
         },
 
-        "SK-2137": {
-            customerName: "Michael",
+        "SK-2133": {
+            customerName: "Keontra A. Everitt",
             finalStatus: "PROCESSING",
             statusNote: "ON TRANSIT",
             steps: [
-                { type: "FROM", location: "SpaceX", date: "6/13/26 09:00 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "", date: "6/13/26 11:00 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "6/13/26 03:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "6/13/26 04:30 PM", progress: "completed" }, 
-                { type: "TO", location: "3 Steven’s Court Hilton Head Island South Carolina 29926", date: "Schedule delivery date<br>6/30/26 09:00 AM", extra: "", progress: "current" }
+                { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "24/07/26 09:00 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Connecticut 210 Capitol Ave, Hartford, CT 06106", date: "24/07/26 11:32 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "25/07/26 02:00 PM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "509  port Wall Street Houston Texas", date: "27/07/26 11:00 AM", progress: "incomplete" }, 
+                { type: "TO", location: "Longview, TX 75605", date: "Schedule delivery date<br>27/07/26 02:00 PM", extra: "", progress: "incomplete" }
             ]
         },
 
