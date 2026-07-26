@@ -37,7 +37,7 @@ function trackPackage() {
         "SK-2133": {
             customerName: "Keontra A. Everitt",
             finalStatus: "ON HOLD",
-            statusNote: "ON TRANSIT",
+            statusNote: "NOTICE OF SHIPPING SUSENSION & COMPLIANCE REQUIREMENT, MORE INFORMATION HAS BEEN FORWARD TO YOUR EMAIL ON HOW TO RESOLVE IT",
             steps: [
                 { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "24/07/26 09:00 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Connecticut 210 Capitol Ave, Hartford, CT 06106", date: "24/07/26 11:32 AM", progress: "completed" },
