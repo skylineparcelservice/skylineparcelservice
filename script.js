@@ -36,13 +36,13 @@ function trackPackage() {
 
         "SK-2133": {
             customerName: "Keontra A. Everitt",
-            finalStatus: "PROCESSING",
+            finalStatus: "ON HOLD",
             statusNote: "ON TRANSIT",
             steps: [
                 { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "24/07/26 09:00 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "Connecticut 210 Capitol Ave, Hartford, CT 06106", date: "24/07/26 11:32 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "25/07/26 02:00 PM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "509  port Wall Street Houston Texas", date: "27/07/26 11:00 AM", progress: "incomplete" }, 
+                { type: "ON THE WAY", location: "At destination sort facility", date: "25/07/26 02:00 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "509  port Wall Street Houston Texas", date: "27/07/26 11:00 AM", progress: "current" }, 
                 { type: "TO", location: "Longview, TX 75605", date: "Schedule delivery date<br>27/07/26 02:00 PM", extra: "", progress: "incomplete" }
             ]
         },
