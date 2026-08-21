@@ -22,15 +22,15 @@ function trackPackage() {
 
     const database = {
         "SK-4471": {
-            customerName: "ddd",
+            customerName: "R Helmer",
             finalStatus: "PROCESSING", 
             statusNote: "ON TRANSIT.",
             steps: [
                 { type: "FROM", location: "SECURITY COMPANY", date: "Label Created<br>2/3/26 09:00 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "7 S Nevada St, Seattle WA 98134 United States", date: "4/7/26 02:15 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "5/7/26 09:25 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "2158 Eveleigh Rd, Leitchfield, KY 42754", date: "8/7/26 08:53 AM", progress: "current" }, 
-                { type: "TO", location: "2158 Eveleigh Rd, Leitchfield, KY 42754", date: "Scheduled Delivery<br>11/8/26 11:53 AM", extra: "", progress: "incomplete" }
+                { type: "WE HAVE YOUR PACKAGE", location: "Burbank California", date: "9/3/26 11:00 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "24/6/26 03:00 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "25/6/26 04:30 PM", progress: "current" }, 
+                { type: "TO", location: " 125 MAGNOLIA DR BARDSTOWN, KY 40004", date: "Scheduled Delivery<br>25/8/26 09:00 PM", extra: "", progress: "incomplete" }
             ]
         },
 
