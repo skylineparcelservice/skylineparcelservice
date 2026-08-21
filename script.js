@@ -21,7 +21,7 @@ function trackPackage() {
     const msg = document.getElementById('statusMessage');
 
     const database = {
-        "SK-4471": {
+        "SK-1471": {
             customerName: "R Helmer",
             finalStatus: "PROCESSING", 
             statusNote: "ON TRANSIT.",
