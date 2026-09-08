@@ -26,10 +26,10 @@ function trackPackage() {
             finalStatus: "PROCESSING", 
             statusNote: "ON TRANSIT.",
             steps: [
-                { type: "FROM", location: "Premier Courier Service Inc.", date: "Label Created<br>9/8/26 10:25 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "1 Hacker Way Menlo Park, CA 94025 United States", date: "9/8/26 13:40 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "9/8/26 20:45 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "9/8/26 20:55 PM", progress: "current" }, 
+                { type: "FROM", location: "Premier Courier Service Inc.", date: "Label Created<br>9/8/26 08:02 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "1 Hacker Way Menlo Park, CA 94025 United States", date: "9/8/26 08:27 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "9/8/26 09:38 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "9/8/26 10:16 AM", progress: "current" }, 
                 { type: "TO", location: "23 Scuppo Rd,  Apt 311, Danbury, CT 06811", date: "Scheduled Delivery<br>9/11/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
