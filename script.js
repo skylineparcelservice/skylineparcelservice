@@ -24,12 +24,12 @@ function trackPackage() {
         "SK-1455": {
             customerName: "Mary Ellen Oswald",
             finalStatus: "PROCESSING", 
-            statusNote: "ON TRANSIT.",
+            statusNote: "PENDING CUSTOMS CLEARANCE.",
             steps: [
                 { type: "FROM", location: "Premier Courier Service Inc.", date: "Label Created<br>9/8/26 08:02 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "1, Hacker Way, Menlo Park, CA 94025", date: "9/8/26 08:27 AM", progress: "completed" },
                 { type: "ON THE WAY", location: "At destination sort facility", date: "9/8/26 09:38 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery (Syracuse, New York)", date: "9/10/26 12:57 PM", progress: "current" }, 
+                { type: "OUT FOR DELIVERY", location: "Held in Customs. (Brewster, New York)", date: "9/11/26 13:48 PM", progress: "current" }, 
                 { type: "TO", location: "23 Scuppo Rd,  Apt 311, Danbury, CT 06811", date: "Scheduled Delivery<br>9/11/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
