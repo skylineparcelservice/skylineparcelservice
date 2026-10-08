@@ -21,16 +21,16 @@ function trackPackage() {
     const msg = document.getElementById('statusMessage');
 
     const database = {
-        "SK-1455": {
-            customerName: "Mary Ellen Oswald",
+        "SK-1771": {
+            customerName: "James Abate",
             finalStatus: "PROCESSING", 
-            statusNote: "PENDING CUSTOMS CLEARANCE.",
+            statusNote: "YOUR CASH IS CURRENTLY ON TRANSIT.",
             steps: [
-                { type: "FROM", location: "Premier Courier Service Inc.", date: "Label Created<br>9/8/26 08:02 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "1, Hacker Way, Menlo Park, CA 94025", date: "9/8/26 08:27 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "9/8/26 09:38 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Held in Customs. (Brewster, New York)", date: "9/11/26 13:48 PM", progress: "current" }, 
-                { type: "TO", location: "23 Scuppo Rd,  Apt 311, Danbury, CT 06811", date: "Scheduled Delivery<br>9/11/26 17:28 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Skyline Parcel Service", date: "Label Created<br>8/10/26 09:00 AM", progress: "completed" },
+                { type: "WE HAVE YOUR CASH", location: "4435 MONTROSE LN APT B MYRTLE BEACH SC", date: "8/10/26 11:32 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "8/10/26 14:00 PM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "9/10/26 11:00 AM", progress: "incomplete" }, 
+                { type: "TO", location: "96 east 23rd Street Huntington station", date: "Scheduled Delivery<br>9/10/26 14:00 PM", extra: "", progress: "incomplete" }
             ]
         },
 
