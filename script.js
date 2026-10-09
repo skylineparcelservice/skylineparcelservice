@@ -23,13 +23,13 @@ function trackPackage() {
     const database = {
         "SK-1771": {
             customerName: "James Abate",
-            finalStatus: "PROCESSING", 
-            statusNote: "YOUR CASH IS CURRENTLY ON TRANSIT.",
+            finalStatus: "ON HOLD", 
+            statusNote: "YOUR CASH IS CURRENTLY ON HOLD.",
             steps: [
                 { type: "FROM", location: "Skyline Parcel Service", date: "Label Created<br>8/10/26 09:00 AM", progress: "completed" },
                 { type: "WE HAVE YOUR CASH", location: "4435 MONTROSE LN APT B MYRTLE BEACH SC", date: "8/10/26 11:32 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "8/10/26 14:00 PM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "9/10/26 11:00 AM", progress: "incomplete" }, 
+                { type: "ON THE WAY", location: "At destination sort facility", date: "8/10/26 14:00 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "9/10/26 11:00 AM", progress: "current" }, 
                 { type: "TO", location: "96 east 23rd Street Huntington station", date: "Scheduled Delivery<br>9/10/26 14:00 PM", extra: "", progress: "incomplete" }
             ]
         },
