@@ -47,16 +47,16 @@ function trackPackage() {
             ]
         },
 
-        "SK-3771": {
-            customerName: "R Helmer",
+        "SK-4711": {
+            customerName: "MARIXIE ANNA VELASCO",
             finalStatus: "PROCESSING",
             statusNote: "ON TRANSIT.",
             steps: [
-                { type: "FROM", location: "SECURITY COMPANY", date: "3/2/26 09:00 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "California, USA", date: "9/20/26 11:00 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "6/24/26 03:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for international delivery", date: "6/25/26 04:30 PM", progress: "current" }, 
-                { type: "TO", location: "125 MAGNOLIA DR BARDSTOWN, KY 40004", date: "Est. 6/30/26 11:00 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "SkylineParcelService", date: "10/12/26 10:25 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "Ontario Delivery Ltd.(Headquarters): P.O Box 25101 RPO West,Brantford , Ontario ,N3T 6K5 .CA", date: "10/13/26 02:10 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility, Ontario,CA", date: "10/14/26 08:25 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "(Guest) c/o Cambridge Suites Toronto 15 Richmond St E, Toronto ON M5C 1N2", date: "10/14/26 08:53 AM", progress: "current" }, 
+                { type: "TO", location: "(Guest) c/o Cambridge Suites Toronto 15 Richmond St E, Toronto ON M5C 1N2", date: "Est. 10/15/26 08:53 AM", extra: "", progress: "incomplete" }
             ]
         },
 
