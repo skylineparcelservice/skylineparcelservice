@@ -60,16 +60,16 @@ function trackPackage() {
             ]
         },
 
-        "SK-4004": {
-            customerName: "Hatstat Rebecca ",
-            finalStatus: "DELAYED",
-            statusNote: "ON HOLD.",
+        "SK-1711": {
+            customerName: "Kaleb Hebert",
+            finalStatus: "PROCESSING",
+            statusNote: "ON TRANSIT.",
             steps: [
-                { type: "FROM", location: "DHL Group, NW DE", date: "3/17/26 12:25 PM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "NORDRHEIN-WESTFALEN, DE", date: "3/18/26 11:07 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "4/15/26 12:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for local delivery", date: "4/24/26 09:30 AM", progress: "current" }, 
-                { type: "TO", location: "35 hatstat Albany twp 04217 US", date: "Est. 4/25/26 11:00 AM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Aeros International Outlet", date: "10/21/26 08:25 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: 10/21/26 10:07 PM", progress: "current" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "10/22/26 15:30 PM", progress: "incomplete" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "10/22/26 20:16 PM", progress: "incomplete" }, 
+                { type: "TO", location: "1705 Canal Ave Nederland Texas United States 77627", date: "Est. 10/23/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
 
