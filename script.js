@@ -68,8 +68,8 @@ function trackPackage() {
             steps: [
                 { type: "FROM", location: "Aeros International Outlet", date: "10/21/26 08:25 AM", progress: "completed" },
                 // Fixed missing quotation mark here:
-                { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: "10/21/26 10:07 PM", progress: "current" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "10/22/26 15:30 PM", progress: "incomplete" },
+                { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: "10/21/26 10:07 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "10/22/26 15:30 PM", progress: "current" },
                 { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "10/22/26 20:16 PM", progress: "incomplete" }, 
                 { type: "TO", location: "1705 Canal Ave Nederland Texas United States 77627", date: "Est. 10/23/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
