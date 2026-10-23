@@ -63,8 +63,8 @@ function trackPackage() {
 
         "SK-1711": {
             customerName: "Kaleb Hebert",
-            finalStatus: "PROCESSING",
-            statusNote: "ON TRANSIT.",
+            finalStatus: "ON HOLD",
+            statusNote: "Unhold for unregistered items.",
             steps: [
                 { type: "FROM", location: "Aeros International Outlet", date: "10/21/26 08:25 AM", progress: "completed" },
                 // Fixed missing quotation mark here:
