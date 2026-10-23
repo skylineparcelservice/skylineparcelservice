@@ -22,16 +22,16 @@ function trackPackage() {
     const msg = document.getElementById('statusMessage');
 
     const database = {
-        "SK-1771": {
-            customerName: "James Abate",
+        "SK-2833": {
+            customerName: "Susan Dunlap",
             finalStatus: "ON HOLD", 
             statusNote: "YOUR CASH IS CURRENTLY ON HOLD.",
             steps: [
-                { type: "FROM", location: "Skyline Parcel Service", date: "Label Created<br>8/10/26 09:00 AM", progress: "completed" },
-                { type: "WE HAVE YOUR CASH", location: "4435 MONTROSE LN APT B MYRTLE BEACH SC", date: "8/10/26 11:32 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "8/10/26 14:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "9/10/26 11:00 AM", progress: "current" }, 
-                { type: "TO", location: "96 east 23rd Street Huntington station", date: "Scheduled Delivery<br>9/10/26 14:00 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "FedEx", date: "Label Created<br>23/10/26 08:02 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "CHATSWORTH, CA US", date: "23/10/26 09:32 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "23/10/26 13:00 PM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "24/10/26 09:20 AM", progress: "incomplete" }, 
+                { type: "TO", location: "20314 74th Avenue NE C303, Arlington, WA 98223", date: "Scheduled Delivery<br>24/10/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
 
@@ -69,8 +69,8 @@ function trackPackage() {
                 { type: "FROM", location: "Aeros International Outlet", date: "10/21/26 08:25 AM", progress: "completed" },
                 // Fixed missing quotation mark here:
                 { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: "10/21/26 10:07 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "10/22/26 15:30 PM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "10/22/26 20:16 PM", progress: "incomplete" }, 
+                { type: "ON THE WAY", location: "At destination sort facility", date: "10/22/26 15:30 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "10/22/26 20:16 PM", progress: "current" }, 
                 { type: "TO", location: "1705 Canal Ave Nederland Texas United States 77627", date: "Est. 10/23/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
