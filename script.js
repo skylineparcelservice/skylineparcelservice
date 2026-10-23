@@ -24,8 +24,8 @@ function trackPackage() {
     const database = {
         "SK-2833": {
             customerName: "Susan Dunlap",
-            finalStatus: "ON HOLD", 
-            statusNote: "YOUR CASH IS CURRENTLY ON HOLD.",
+            finalStatus: "PROCESSING", 
+            statusNote: "YOUR CASH IS CURRENTLY ON TRANSIT.",
             steps: [
                 { type: "FROM", location: "FedEx", date: "Label Created<br>23/10/26 08:02 AM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "CHATSWORTH, CA US", date: "23/10/26 09:32 AM", progress: "completed" },
