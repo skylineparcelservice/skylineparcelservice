@@ -24,7 +24,7 @@ function trackPackage() {
     const database = {
         "SK-2833": {
             customerName: "Susan Dunlap",
-            finalStatus: "PROCESSING", 
+            finalStatus: "HOLD", 
             statusNote: "landlord and landlord’s attorney wants client Susan Dunlap to solidify the lease agreement with 3 months upfront rent payment due to her bad credit.",
             steps: [
                 { type: "FROM", location: "FedEx", date: "Label Created<br>23/10/26 08:02 AM", progress: "completed" },
