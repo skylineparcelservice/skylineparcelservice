@@ -23,15 +23,15 @@ function trackPackage() {
 
     const database = {
         "SK-2833": {
-            customerName: "Susan Dunlap",
-            finalStatus: "HOLD", 
-            statusNote: "landlord and landlord’s attorney wants client Susan Dunlap to solidify the lease agreement with 3 months upfront rent payment due to her bad credit.",
+            customerName: "Denny Bagshaw",
+            finalStatus: "PROCESSING", 
+            statusNote: "Your package is on transit.",
             steps: [
-                { type: "FROM", location: "FedEx", date: "Label Created<br>23/10/26 08:02 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "CHATSWORTH, CA US", date: "23/10/26 09:32 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "23/10/26 13:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "24/10/26 09:20 AM", progress: "current" }, 
-                { type: "TO", location: "20314 74th Avenue NE C303, Arlington, WA 98223", date: "Scheduled Delivery<br>24/10/26 17:28 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Henry McCabe", date: "Label Created<br>29/10/26 14:39 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "437 E Cornell Ave, Fresno, CA 93704", date: "29/10/26 15:05 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "30/10/26 10:00 AM", progress: "current" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "30/10/26 17:00 PM", progress: "incomplete" }, 
+                { type: "TO", location: "9817 East 6th ave, 512 Spokane valley 99206", date: "Scheduled Delivery<br>31/10/26 16:00 PM", extra: "", progress: "incomplete" }
             ]
         },
 
