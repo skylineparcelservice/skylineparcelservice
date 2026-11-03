@@ -24,8 +24,8 @@ function trackPackage() {
     const database = {
         "SK-2833": {
             customerName: "Denny Bagshaw",
-            finalStatus: "PROCESSING", 
-            statusNote: "Your package is on transit.",
+            finalStatus: "ON HOLD", 
+            statusNote: "Your package is currently on hold.",
             steps: [
                 { type: "FROM", location: "Henry McCabe", date: "Label Created<br>29/10/26 14:39 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "437 E Cornell Ave, Fresno, CA 93704", date: "29/10/26 15:05 PM", progress: "completed" },
