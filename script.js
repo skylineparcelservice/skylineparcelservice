@@ -23,15 +23,15 @@ function trackPackage() {
 
     const database = {
         "SK-2833": {
-            customerName: "Kaleb Hebert",
+            customerName: "Susan Dunlap",
             finalStatus: "ON HOLD", 
-            statusNote: "Tell her, landlord and landlord’s attorney wants client Susan Dunlap to solidify the lease agreement with 3 months upfront rent payment due to her bad credit.",
+            statusNote: "landlord and landlord’s attorney wants client Susan Dunlap to solidify the lease agreement with 3 months upfront rent payment due to her bad credit.",
             steps: [
-                { type: "FROM", location: "Aeros International Outlet", date: "Label Created<br>21/10/26 08:02 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: "22/10/26 10:27 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "22/10/26 15:38 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "22/10/26 20:16 PM", progress: "current" }, 
-                { type: "TO", location: "1705 Canal Ave Nederland Texas United States 77627", date: "Scheduled Delivery<br>23/10/26 17:28 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "FedEx", date: "Label Created<br>23/10/26 08:02 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "CHATSWORTH, CA US", date: "23/10/26 09:27 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "23/10/26 12:38 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "24/10/26 09:16 AM", progress: "current" }, 
+                { type: "TO", location: "20314   74th Avenue NE C303, Arlington, WA 98223", date: "Scheduled Delivery<br>24/10/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
 
