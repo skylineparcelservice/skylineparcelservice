@@ -23,28 +23,28 @@ function trackPackage() {
 
     const database = {
         "SK-2833": {
-            customerName: "Denny Bagshaw",
+            customerName: "Kaleb Hebert",
             finalStatus: "ON HOLD", 
-            statusNote: "Your package is currently on hold.",
+            statusNote: "Tell her, landlord and landlord’s attorney wants client Susan Dunlap to solidify the lease agreement with 3 months upfront rent payment due to her bad credit.",
             steps: [
-                { type: "FROM", location: "Henry McCabe", date: "Label Created<br>29/10/26 14:39 PM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "437 E Cornell Ave, Fresno, CA 93704", date: "29/10/26 15:05 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "30/10/26 10:00 AM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "30/10/26 17:00 PM", progress: "current" }, 
-                { type: "TO", location: "9817 East 6th ave, 512 Spokane valley 99206", date: "Scheduled Delivery<br>31/10/26 16:00 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Aeros International Outlet", date: "Label Created<br>21/10/26 08:02 AM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "133 W Canal St, Newcomerstown, OH 43832", date: "22/10/26 10:27 AM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "22/10/26 15:38 PM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "22/10/26 20:16 PM", progress: "current" }, 
+                { type: "TO", location: "1705 Canal Ave Nederland Texas United States 77627", date: "Scheduled Delivery<br>23/10/26 17:28 PM", extra: "", progress: "incomplete" }
             ]
         },
 
         "SK-2133": {
-            customerName: "Keontra A. Everitt",
+            customerName: "Denny Bagshaw",
             finalStatus: "ON HOLD",
-            statusNote: "Action Required: Shipping Suspended Instructions on how to resolve this compliance issue have been sent to your email.",
+            statusNote: "Your package is currently on hold",
             steps: [
-                { type: "FROM", location: "PremiercourierserviceInc to Skylineparcelservice", date: "24/07/26 09:00 AM", progress: "completed" },
-                { type: "WE HAVE YOUR PACKAGE", location: "Connecticut 210 Capitol Ave, Hartford, CT 06106", date: "24/07/26 11:32 AM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "25/07/26 02:00 PM", progress: "completed" },
-                { type: "OUT FOR DELIVERY", location: "509  port Wall Street Houston Texas", date: "27/07/26 11:00 AM", progress: "current" }, 
-                { type: "TO", location: "Longview, TX 75605", date: "Schedule delivery date<br>27/07/26 02:00 PM", extra: "", progress: "incomplete" }
+                { type: "FROM", location: "Henry McCabe", date: "29/10/26 14:39 PM", progress: "completed" },
+                { type: "WE HAVE YOUR PACKAGE", location: "437 E Cornell Ave, Fresno, CA 93704", date: "29/10/26 15:05 PM", progress: "completed" },
+                { type: "ON THE WAY", location: "At destination sort facility", date: "30/10/26 10:00 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "30/10/26 17:00 PM", progress: "current" }, 
+                { type: "TO", location: "9817 East 6th ave, 512 Spokane valley 99206", date: "Schedule delivery date<br>27/07/26 02:00 PM", extra: "", progress: "incomplete" }
             ]
         },
 
