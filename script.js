@@ -29,8 +29,8 @@ function trackPackage() {
             steps: [
                 { type: "FROM", location: "Henry McCabe", date: "Label Created<br>29/10/26 14:39 PM", progress: "completed" },
                 { type: "WE HAVE YOUR PACKAGE", location: "437 E Cornell Ave, Fresno, CA 93704", date: "29/10/26 15:05 PM", progress: "completed" },
-                { type: "ON THE WAY", location: "At destination sort facility", date: "30/10/26 10:00 AM", progress: "current" },
-                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "30/10/26 17:00 PM", progress: "incomplete" }, 
+                { type: "ON THE WAY", location: "At destination sort facility", date: "30/10/26 10:00 AM", progress: "completed" },
+                { type: "OUT FOR DELIVERY", location: "Shipment is out for delivery", date: "30/10/26 17:00 PM", progress: "current" }, 
                 { type: "TO", location: "9817 East 6th ave, 512 Spokane valley 99206", date: "Scheduled Delivery<br>31/10/26 16:00 PM", extra: "", progress: "incomplete" }
             ]
         },
